@@ -43,16 +43,41 @@
     margin-right: 20px;
 }
 
-#dent-gallery .orion-simple-gallery.grid .image-w{
+#dent-gallery .orion-simple-gallery.grid .image-w {
     margin-bottom: 0;
 }
 
-#dent-gallery .wrapper > div{
+#dent-gallery .wrapper > div {
     padding-right: 0;
     padding-left: 0;
 }
 
-h6 small.font-3{
+h6 small.font-3 {
     font-size: 20px;
 }
 
+#nazel--bid .name input, #nazel--bid .phone input {
+    margin-bottom: 15px;
+}
+
+.nazel--text {
+    margin-bottom: 15px;
+    color: lightgrey;
+}
+
+#nazel-url {
+    text-decoration: lightgrey underline solid;
+    color: lightgrey;
+}
+
+input.nazel--btn{
+    margin-bottom: 0;
+}
+
+#nazel--html div.custom-html-widget{
+    text-align: center;
+}
+
+.team-title .departments, .title-wrap .social-links{
+    display: none;
+}
