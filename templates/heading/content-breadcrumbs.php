@@ -9,7 +9,7 @@
 					    'li' => array(),
 					);
 
-					echo '<li><a href="' . esc_url(home_url( '/' )) . '">' . esc_html__('Home', 'dentalia') . '</a></li>';
+					echo '<li><a href="' . esc_url(home_url( '/' )) . '">' . esc_html__('Главная', 'dentalia') . '</a></li>';
 
 					if( is_category() ) {
 						$parents = explode('|', get_category_parents(get_queried_object_id(), true, '|'));
@@ -100,7 +100,7 @@
 		            } else if(is_home() && is_front_page()) {
 
 		            } else if(is_post_type_archive('team-member')) {
-		            	echo '<li><span>' . esc_html__('Team members', 'dentalia') . '</span></li>';
+		            	echo '<li><span>' . esc_html__('Члены команды', 'dentalia') . '</span></li>';
 		            } else if( is_home() && !is_front_page()) {
 		            	echo '<li><span>' . get_the_title(get_option('page_for_posts')) . '</span></li>';
 					} else {

@@ -70,14 +70,33 @@ h6 small.font-3 {
     color: lightgrey;
 }
 
-input.nazel--btn{
+input.nazel--btn {
     margin-bottom: 0;
 }
 
-#nazel--html div.custom-html-widget{
+#nazel--html div.custom-html-widget {
     text-align: center;
 }
 
-.team-title .departments, .title-wrap .social-links{
+.team-title .departments, .title-wrap .social-links {
     display: none;
+}
+
+.lead li {
+    font-size: 18px;
+}
+
+.main-footer .row #orion_icon_w-2 {
+    text-align: center;
+}
+
+.site-footer div.main-footer {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+#dent-gallery--lic .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
