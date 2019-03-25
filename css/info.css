@@ -100,3 +100,31 @@ input.nazel--btn {
     align-items: center;
     justify-content: center;
 }
+
+@media only screen and (min-device-width: 768px) and (max-width: 1199px) {
+    .form-wrap {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .form-wrap {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .tab-item {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    .tab-item:nth-child(3n-1) {
+        margin: 0;
+    }
+
+    #logos-cell {
+        display: none;
+    }
+}
