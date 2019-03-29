@@ -107,6 +107,47 @@ input.nazel--btn {
     margin-right: auto;
 }
 
+.widget_orion_features_w .feature-item-wrap .item-title {
+    font-size: 28px;
+    line-height: normal;
+}
+
+.widget_orion_features_w .feature-item.text-center .feature-item-wrap .footer p {
+    font-size: 26px;
+}
+
+.nav-tabs > li.active a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: #00CBE7;
+    color: white;
+}
+
+.nav-tabs > li > a {
+    font-size: 17px;
+}
+
+.tab-head {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+span.tab-icon {
+    font-size: 50px;
+    color: #00CBE7;
+    margin-right: 15px;
+}
+
+.tab-head:after {
+    display: block;
+    height: 3px;
+    width: 50%;
+    content: '';
+    background-color: #00CBE7;
+    margin-left: auto;
+}
+
 @media only screen and (min-device-width: 768px) and (max-width: 1199px) {
     .form-wrap {
         padding-top: 35px;
@@ -121,6 +162,26 @@ input.nazel--btn {
 
     #nazel--head {
         padding-top: 20px;
+    }
+
+    .tab-head {
+        font-size: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    span.tab-icon {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+
+    .tab-item h3 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .nav-tabs > li > a {
+        font-size: 8px;
     }
 }
 
@@ -152,5 +213,25 @@ input.nazel--btn {
         flex-direction: column;
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+    .tab-head {
+        font-size: 23px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .tab-head:after {
+        content: none;
+    }
+
+    span.tab-icon {
+        font-size: 30px;
+        margin-right: 10px;
+    }
+
+    .tab-item h3 {
+        font-size: 20px;
+        line-height: normal;
     }
 }
