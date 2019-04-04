@@ -107,6 +107,12 @@ input.nazel--btn {
     margin-right: auto;
 }
 
+#nazel-team .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+}
+
 @media only screen and (min-device-width: 768px) and (max-width: 1199px) {
     .form-wrap {
         padding-top: 35px;
@@ -152,5 +158,9 @@ input.nazel--btn {
         flex-direction: column;
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+    #nazel-team .wrapper {
+        flex-direction: column;
     }
 }
